@@ -1,49 +1,71 @@
-# Local project coordination documents
-agent.md
-docs/
+# Publication allowlist: update .publish-policy.json and matching exceptions together.
+*
+!/.gitattributes
+!/.githooks/
+!/.githooks/pre-commit
+!/.githooks/pre-push
+!/.gitignore
+!/.node-version
+!/.publish-policy.json
+!/README.md
+!/index.html
+!/package.json
+!/scripts/
+!/scripts/check-public.mjs
+!/style.css
+!/src/
+!/src/**
+!/assets/
+!/assets/**
+!/tools/
+!/tools/**
 
-# Operating system
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*~
-
-# Node / Python environments and caches
+# Local files and sensitive data stay outside Git.
+.git/
+.agents/
+.codex/
 node_modules/
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+tests/
+test/
+tmp/
+qa/
 coverage/
-.cache/
+test-results/
+playwright-report/
+backups/
 dist/
-
-# Local environment files
+artifacts/
+_packs/
+2D_version/
+DEMO.html
+*prompt*
+agent.md
+AGENTS.md
+PLAN.md
+RELEASE_DESIGN.md
 .env
 .env.*
 !.env.example
-
-# Logs and temporary files
+*.sqlite*
+*.db
+*.db-*
+*.xlsx
+*.xls
+*.pem
+*.key
+*.pfx
+*.p12
+*.zip
 *.log
 *.tmp
 *.temp
-*.out
-*.pid
-
-# Generated browser QA artifacts
-tests/smoke-browser.png
-tests/melee-vfx-debug.png
-tests/visual-clamp-debug.png
-.edge-*/
-tests/.edge-*/
-
-# Local test scripts and browser artifacts
-tests/
+*.pyc
+.DS_Store
+Thumbs.db
+data/
+docs/
+!assets/data/
+assets/data/*
+!assets/data/boss_config.json
+!assets/data/csv/
+!assets/data/csv/*.csv

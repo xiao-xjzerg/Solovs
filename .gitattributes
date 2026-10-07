@@ -24,3 +24,7 @@
 *.png binary
 *.wav binary
 *.webp binary
+
+.publish-policy.json text eol=lf
+.githooks/* text eol=lf
+scripts/check-public.mjs text eol=lf

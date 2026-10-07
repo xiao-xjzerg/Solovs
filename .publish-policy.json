@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "project": "Solovs",
+  "repository": "https://github.com/xiao-xjzerg/Solovs.git",
+  "nodeVersion": "26.10.0",
+  "files": [
+    ".gitattributes",
+    ".githooks/pre-commit",
+    ".githooks/pre-push",
+    ".gitignore",
+    ".node-version",
+    ".publish-policy.json",
+    "README.md",
+    "index.html",
+    "package.json",
+    "scripts/check-public.mjs",
+    "style.css"
+  ],
+  "directories": [
+    "src",
+    "assets",
+    "tools"
+  ]
+}
