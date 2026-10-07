@@ -1,0 +1,3 @@
+﻿boss_id,phase,hp_min_pct,hp_max_pct,min_inclusive,max_inclusive,windup_scale,transition_anim_id,transition_vfx_id,transition_sfx_id,notes
+boss_1,1,50,100,TRUE,TRUE,1,,,,Phase 1 applies at 50% to 100% HP.
+boss_1,2,0,50,TRUE,FALSE,1,boss_1_phase_2,boss_1_phase_gold_tint,,"Phase 2 begins below 50% HP. Play the 2000 ms rage transition: grow 1.00→1.50, start gold alpha-mask VFX and screen shake on frame 02, then restore visual scale to 1.00."

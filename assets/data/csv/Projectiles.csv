@@ -1,0 +1,2 @@
+﻿projectile_id,image_path,display_width,display_height,spawn_origin,spawn_forward_offset,spawn_side_offset,move_mode,target_policy,rotation_policy,speed,collider_shape,collider_width,collider_height,lifetime_ms,max_distance,collide_world,destroy_on_world,destroy_on_hit,pierce_count,notes
+crystal_spear,assets\Projectiles\crystal_spear\crystal_spear.png,200,40,self,0,0,straight,target_location_on_cast,align_on_spawn,800,rectangle,200,40,,,TRUE,TRUE,TRUE,0,Direction = normalized vector from spawn point to target location captured on cast.

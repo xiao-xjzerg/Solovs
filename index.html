@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solovs Dev 0</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main id="game-shell">
+      <canvas id="game-canvas" width="1280" height="720"></canvas>
+      <section id="hud" aria-label="Solovs HUD">
+        <div class="hud-row hud-top">
+          <div class="bar-panel">
+            <span class="label">PLAYER</span>
+            <div class="meter"><span id="player-hp-fill"></span></div>
+          </div>
+          <div id="status-chip">Loading</div>
+          <div class="bar-panel">
+            <span class="label">BOSS</span>
+            <div class="meter boss"><span id="boss-hp-fill"></span></div>
+          </div>
+        </div>
+        <div class="hud-row hud-bottom">
+          <button class="slot" id="slot-q" type="button">Q</button>
+          <button class="slot reserved" id="slot-w" type="button">W</button>
+          <button class="slot reserved" id="slot-e" type="button">E</button>
+          <button class="slot" id="slot-roll" type="button">SP</button>
+        </div>
+      </section>
+      <section id="pause-menu" class="hidden" aria-hidden="true">
+        <div class="menu-panel" role="dialog" aria-modal="true">
+          <button id="back-game" class="menu-button" type="button">Back game</button>
+          <button id="return-menu" class="menu-button" type="button">Return menu</button>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

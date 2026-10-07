@@ -1,0 +1,56 @@
+﻿anim_id,frame,image_path,duration_ms,notes,visual_scale
+boss_1_melee,0,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_00.png,105,,1
+boss_1_melee,1,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_01.png,200,,1
+boss_1_melee,2,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_02.png,350,,1
+boss_1_melee,3,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_03.png,200,Skill_events displays boss_1_melee_slash with the same frame number.,1
+boss_1_melee,4,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_04.png,200,Skill_events displays boss_1_melee_slash with the same frame number.,1
+boss_1_melee,5,assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_05.png,175,,1
+boss_1_ground_pound,0,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_00.png,150,frames 0-3 = warning windup (ground_crack_ring),1
+boss_1_ground_pound,1,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_01.png,500,,1
+boss_1_ground_pound,2,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_02.png,500,,1
+boss_1_ground_pound,3,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_03.png,500,,1
+boss_1_ground_pound,4,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_04.png,90,hit_frame; impact + shake,1
+boss_1_ground_pound,5,assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_05.png,260,,1
+boss_1_throw,0,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_00.png,120,frames 0-3 = aim windup,1
+boss_1_throw,1,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_01.png,140,,1
+boss_1_throw,2,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_02.png,300,,1
+boss_1_throw,3,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_03.png,300,,1
+boss_1_throw,4,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_04.png,60,projectile spawn (crystal_spear),1
+boss_1_throw,5,assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_05.png,250,,1
+boss_1_casting,0,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_00.png,167,6-frame loop ~=1000ms/cycle; loops 3x = 3000ms = 3 waves,1
+boss_1_casting,1,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_01.png,167,,1
+boss_1_casting,2,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_02.png,166,,1
+boss_1_casting,3,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_03.png,167,,1
+boss_1_casting,4,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_04.png,166,,1
+boss_1_casting,5,assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_05.png,167,,1
+boss_1_rush,0,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_00.png,150,,1
+boss_1_rush,1,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_01.png,160,,1
+boss_1_rush,2,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_02.png,170,,1
+boss_1_rush,3,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_03.png,180,,1
+boss_1_rush,4,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_04.png,80,hit_frame; rush_gold_overlay starts,1
+boss_1_rush,5,assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_05.png,120,hold/loop frame 05 during dash until reaching player,1
+boss_1_idle,0,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_00.png,200,,1
+boss_1_idle,1,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_01.png,200,,1
+boss_1_idle,2,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_02.png,200,,1
+boss_1_idle,3,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_03.png,200,,1
+boss_1_idle,4,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_04.png,200,,1
+boss_1_idle,5,assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_05.png,200,,1
+boss_1_move,0,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_00.png,120,{DIR} expands to D/R/U on disk (L mirrors R),1
+boss_1_move,1,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_01.png,120,,1
+boss_1_move,2,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_02.png,120,,1
+boss_1_move,3,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_03.png,120,,1
+boss_1_move,4,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_04.png,120,,1
+boss_1_move,5,assets/characters/bosses/boss_1/boss_1_move/boss_1_move_{DIR}_05.png,120,,1
+boss_1_gethurt,0,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_00.png,80,,1
+boss_1_gethurt,1,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_01.png,80,,1
+boss_1_gethurt,2,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_02.png,80,,1
+boss_1_gethurt,3,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_03.png,80,,1
+boss_1_gethurt,4,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_04.png,80,,1
+boss_1_gethurt,5,assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_05.png,80,,1
+boss_1_death,to be determined,to be determined,to be determined,No asset folder yet; keep TBD.,1
+boss_1_phase_2,0,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_00.png,250,Tense posture; anger gathers.,1
+boss_1_phase_2,1,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_01.png,300,Inhale and lower the center of gravity; prepare to roar.,1.1
+boss_1_phase_2,2,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_02.png,350,Head lifts and roar begins; gold alpha-mask VFX and screen shake start.,1.2
+boss_1_phase_2,3,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_03.png,450,Peak upward roar.,1.3
+boss_1_phase_2,4,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_04.png,350,Sustain the roar and explosive power.,1.4
+boss_1_phase_2,5,assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_05.png,300,Final peak; reset visual scale to 1.00 after animation completion.,1.5

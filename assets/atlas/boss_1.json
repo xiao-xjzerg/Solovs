@@ -1,0 +1,1413 @@
+{
+  "_meta": {
+    "bossId": "boss_1",
+    "extruded": true,
+    "generator": "tools/pack_atlas.py",
+    "manifestSha256": "9694f8854385a3ef820c838e50a77dcb6372ddb9553fe543cb1258bccfac84e7",
+    "padding": 2,
+    "schemaVersion": 1,
+    "trimmed": true
+  },
+  "frames": {
+    "boss_1_casting:0": {
+      "frame": {
+        "height": 509,
+        "width": 567,
+        "x": 1687,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 509,
+        "width": 567,
+        "x": 65,
+        "y": 118
+      }
+    },
+    "boss_1_casting:1": {
+      "frame": {
+        "height": 608,
+        "width": 612,
+        "x": 1033,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 608,
+        "width": 612,
+        "x": 20,
+        "y": 18
+      }
+    },
+    "boss_1_casting:2": {
+      "frame": {
+        "height": 601,
+        "width": 512,
+        "x": 2176,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 601,
+        "width": 512,
+        "x": 120,
+        "y": 25
+      }
+    },
+    "boss_1_casting:3": {
+      "frame": {
+        "height": 529,
+        "width": 497,
+        "x": 619,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 529,
+        "width": 497,
+        "x": 135,
+        "y": 97
+      }
+    },
+    "boss_1_casting:4": {
+      "frame": {
+        "height": 453,
+        "width": 559,
+        "x": 3456,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 453,
+        "width": 559,
+        "x": 73,
+        "y": 174
+      }
+    },
+    "boss_1_casting:5": {
+      "frame": {
+        "height": 505,
+        "width": 566,
+        "x": 2258,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 505,
+        "width": 566,
+        "x": 66,
+        "y": 122
+      }
+    },
+    "boss_1_gethurt:0": {
+      "frame": {
+        "height": 611,
+        "width": 512,
+        "x": 2582,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 611,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_gethurt:1": {
+      "frame": {
+        "height": 611,
+        "width": 511,
+        "x": 518,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 611,
+        "width": 511,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_gethurt:2": {
+      "frame": {
+        "height": 626,
+        "width": 469,
+        "x": 2,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 626,
+        "width": 469,
+        "x": 63,
+        "y": 0
+      }
+    },
+    "boss_1_gethurt:3": {
+      "frame": {
+        "height": 617,
+        "width": 501,
+        "x": 2955,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 617,
+        "width": 501,
+        "x": 43,
+        "y": 8
+      }
+    },
+    "boss_1_gethurt:4": {
+      "frame": {
+        "height": 625,
+        "width": 487,
+        "x": 475,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 625,
+        "width": 487,
+        "x": 54,
+        "y": 0
+      }
+    },
+    "boss_1_gethurt:5": {
+      "frame": {
+        "height": 615,
+        "width": 519,
+        "x": 1185,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 615,
+        "width": 519,
+        "x": 63,
+        "y": 10
+      }
+    },
+    "boss_1_ground_pound:0": {
+      "frame": {
+        "height": 612,
+        "width": 512,
+        "x": 518,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 612,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_ground_pound:1": {
+      "frame": {
+        "height": 616,
+        "width": 551,
+        "x": 2,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 616,
+        "width": 551,
+        "x": 34,
+        "y": 10
+      }
+    },
+    "boss_1_ground_pound:2": {
+      "frame": {
+        "height": 594,
+        "width": 553,
+        "x": 2,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 594,
+        "width": 553,
+        "x": 60,
+        "y": 31
+      }
+    },
+    "boss_1_ground_pound:3": {
+      "frame": {
+        "height": 596,
+        "width": 513,
+        "x": 3571,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 596,
+        "width": 513,
+        "x": 0,
+        "y": 30
+      }
+    },
+    "boss_1_ground_pound:4": {
+      "frame": {
+        "height": 591,
+        "width": 453,
+        "x": 559,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 591,
+        "width": 453,
+        "x": 101,
+        "y": 35
+      }
+    },
+    "boss_1_ground_pound:5": {
+      "frame": {
+        "height": 607,
+        "width": 523,
+        "x": 1649,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 607,
+        "width": 523,
+        "x": 68,
+        "y": 19
+      }
+    },
+    "boss_1_idle:0": {
+      "frame": {
+        "height": 612,
+        "width": 512,
+        "x": 1034,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 612,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_idle:1": {
+      "frame": {
+        "height": 611,
+        "width": 512,
+        "x": 3098,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 611,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_idle:2": {
+      "frame": {
+        "height": 613,
+        "width": 515,
+        "x": 2304,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 613,
+        "width": 515,
+        "x": 63,
+        "y": 13
+      }
+    },
+    "boss_1_idle:3": {
+      "frame": {
+        "height": 613,
+        "width": 512,
+        "x": 3340,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 613,
+        "width": 512,
+        "x": 65,
+        "y": 13
+      }
+    },
+    "boss_1_idle:4": {
+      "frame": {
+        "height": 613,
+        "width": 513,
+        "x": 2823,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 613,
+        "width": 513,
+        "x": 64,
+        "y": 13
+      }
+    },
+    "boss_1_idle:5": {
+      "frame": {
+        "height": 613,
+        "width": 512,
+        "x": 2,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 613,
+        "width": 512,
+        "x": 64,
+        "y": 13
+      }
+    },
+    "boss_1_melee:0": {
+      "frame": {
+        "height": 624,
+        "width": 612,
+        "x": 1584,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 612,
+        "x": 14,
+        "y": 8
+      }
+    },
+    "boss_1_melee:1": {
+      "frame": {
+        "height": 624,
+        "width": 404,
+        "x": 1485,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 404,
+        "x": 118,
+        "y": 8
+      }
+    },
+    "boss_1_melee:2": {
+      "frame": {
+        "height": 624,
+        "width": 601,
+        "x": 2200,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 601,
+        "x": 20,
+        "y": 8
+      }
+    },
+    "boss_1_melee:3": {
+      "frame": {
+        "height": 494,
+        "width": 624,
+        "x": 2828,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 494,
+        "width": 624,
+        "x": 8,
+        "y": 138
+      }
+    },
+    "boss_1_melee:4": {
+      "frame": {
+        "height": 615,
+        "width": 624,
+        "x": 557,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 615,
+        "width": 624,
+        "x": 8,
+        "y": 17
+      }
+    },
+    "boss_1_melee:5": {
+      "frame": {
+        "height": 624,
+        "width": 614,
+        "x": 966,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 614,
+        "x": 13,
+        "y": 8
+      }
+    },
+    "boss_1_move:0:D": {
+      "frame": {
+        "height": 624,
+        "width": 494,
+        "x": 2,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 494,
+        "x": 73,
+        "y": 8
+      }
+    },
+    "boss_1_move:0:R": {
+      "frame": {
+        "height": 624,
+        "width": 506,
+        "x": 2602,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 506,
+        "x": 67,
+        "y": 8
+      }
+    },
+    "boss_1_move:0:U": {
+      "frame": {
+        "height": 569,
+        "width": 451,
+        "x": 2496,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 569,
+        "width": 451,
+        "x": 65,
+        "y": 57
+      }
+    },
+    "boss_1_move:1:D": {
+      "frame": {
+        "height": 624,
+        "width": 516,
+        "x": 1050,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 516,
+        "x": 62,
+        "y": 8
+      }
+    },
+    "boss_1_move:1:R": {
+      "frame": {
+        "height": 624,
+        "width": 527,
+        "x": 3339,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 527,
+        "x": 57,
+        "y": 8
+      }
+    },
+    "boss_1_move:1:U": {
+      "frame": {
+        "height": 572,
+        "width": 450,
+        "x": 2042,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 572,
+        "width": 450,
+        "x": 67,
+        "y": 54
+      }
+    },
+    "boss_1_move:2:D": {
+      "frame": {
+        "height": 624,
+        "width": 495,
+        "x": 3112,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 495,
+        "x": 73,
+        "y": 8
+      }
+    },
+    "boss_1_move:2:R": {
+      "frame": {
+        "height": 624,
+        "width": 530,
+        "x": 2805,
+        "y": 2
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 530,
+        "x": 55,
+        "y": 8
+      }
+    },
+    "boss_1_move:2:U": {
+      "frame": {
+        "height": 601,
+        "width": 427,
+        "x": 2692,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 601,
+        "width": 427,
+        "x": 84,
+        "y": 25
+      }
+    },
+    "boss_1_move:3:D": {
+      "frame": {
+        "height": 624,
+        "width": 518,
+        "x": 528,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 518,
+        "x": 61,
+        "y": 8
+      }
+    },
+    "boss_1_move:3:R": {
+      "frame": {
+        "height": 624,
+        "width": 484,
+        "x": 997,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 484,
+        "x": 78,
+        "y": 8
+      }
+    },
+    "boss_1_move:3:U": {
+      "frame": {
+        "height": 552,
+        "width": 430,
+        "x": 2992,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 552,
+        "width": 430,
+        "x": 74,
+        "y": 74
+      }
+    },
+    "boss_1_move:4:D": {
+      "frame": {
+        "height": 624,
+        "width": 522,
+        "x": 2,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 522,
+        "x": 59,
+        "y": 8
+      }
+    },
+    "boss_1_move:4:R": {
+      "frame": {
+        "height": 624,
+        "width": 511,
+        "x": 2087,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 511,
+        "x": 65,
+        "y": 8
+      }
+    },
+    "boss_1_move:4:U": {
+      "frame": {
+        "height": 617,
+        "width": 447,
+        "x": 3460,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 617,
+        "width": 447,
+        "x": 77,
+        "y": 9
+      }
+    },
+    "boss_1_move:5:D": {
+      "frame": {
+        "height": 624,
+        "width": 513,
+        "x": 1570,
+        "y": 632
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 513,
+        "x": 64,
+        "y": 8
+      }
+    },
+    "boss_1_move:5:R": {
+      "frame": {
+        "height": 624,
+        "width": 493,
+        "x": 500,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 624,
+        "width": 493,
+        "x": 74,
+        "y": 8
+      }
+    },
+    "boss_1_move:5:U": {
+      "frame": {
+        "height": 598,
+        "width": 444,
+        "x": 3123,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 598,
+        "width": 444,
+        "x": 83,
+        "y": 28
+      }
+    },
+    "boss_1_phase_2:0": {
+      "frame": {
+        "height": 579,
+        "width": 500,
+        "x": 1538,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 579,
+        "width": 500,
+        "x": 68,
+        "y": 47
+      }
+    },
+    "boss_1_phase_2:1": {
+      "frame": {
+        "height": 541,
+        "width": 514,
+        "x": 3426,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 541,
+        "width": 514,
+        "x": 68,
+        "y": 84
+      }
+    },
+    "boss_1_phase_2:2": {
+      "frame": {
+        "height": 528,
+        "width": 563,
+        "x": 1120,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 528,
+        "width": 563,
+        "x": 30,
+        "y": 97
+      }
+    },
+    "boss_1_phase_2:3": {
+      "frame": {
+        "height": 561,
+        "width": 583,
+        "x": 2,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 561,
+        "width": 583,
+        "x": 18,
+        "y": 64
+      }
+    },
+    "boss_1_phase_2:4": {
+      "frame": {
+        "height": 554,
+        "width": 581,
+        "x": 2407,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 554,
+        "width": 581,
+        "x": 16,
+        "y": 71
+      }
+    },
+    "boss_1_phase_2:5": {
+      "frame": {
+        "height": 557,
+        "width": 582,
+        "x": 1205,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 557,
+        "width": 582,
+        "x": 18,
+        "y": 68
+      }
+    },
+    "boss_1_rush:0": {
+      "frame": {
+        "height": 612,
+        "width": 512,
+        "x": 1550,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 612,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_rush:1": {
+      "frame": {
+        "height": 612,
+        "width": 512,
+        "x": 2066,
+        "y": 2508
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 612,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_rush:2": {
+      "frame": {
+        "height": 622,
+        "width": 544,
+        "x": 2407,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 622,
+        "width": 544,
+        "x": 51,
+        "y": 4
+      }
+    },
+    "boss_1_rush:3": {
+      "frame": {
+        "height": 613,
+        "width": 592,
+        "x": 1708,
+        "y": 1888
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 613,
+        "width": 592,
+        "x": 27,
+        "y": 1
+      }
+    },
+    "boss_1_rush:4": {
+      "frame": {
+        "height": 559,
+        "width": 612,
+        "x": 589,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 559,
+        "width": 612,
+        "x": 4,
+        "y": 49
+      }
+    },
+    "boss_1_rush:5": {
+      "frame": {
+        "height": 540,
+        "width": 613,
+        "x": 2,
+        "y": 1165
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 540,
+        "width": 613,
+        "x": 17,
+        "y": 92
+      }
+    },
+    "boss_1_throw:0": {
+      "frame": {
+        "height": 611,
+        "width": 512,
+        "x": 2,
+        "y": 3125
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_00.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 611,
+        "width": 512,
+        "x": 64,
+        "y": 14
+      }
+    },
+    "boss_1_throw:1": {
+      "frame": {
+        "height": 623,
+        "width": 510,
+        "x": 1893,
+        "y": 1260
+      },
+      "page": 0,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_01.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 623,
+        "width": 510,
+        "x": 60,
+        "y": 2
+      }
+    },
+    "boss_1_throw:2": {
+      "frame": {
+        "height": 566,
+        "width": 603,
+        "x": 2951,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_02.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 566,
+        "width": 603,
+        "x": 24,
+        "y": 59
+      }
+    },
+    "boss_1_throw:3": {
+      "frame": {
+        "height": 579,
+        "width": 518,
+        "x": 1016,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_03.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 579,
+        "width": 518,
+        "x": 13,
+        "y": 46
+      }
+    },
+    "boss_1_throw:4": {
+      "frame": {
+        "height": 564,
+        "width": 398,
+        "x": 3558,
+        "y": 2
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_04.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 564,
+        "width": 398,
+        "x": 101,
+        "y": 61
+      }
+    },
+    "boss_1_throw:5": {
+      "frame": {
+        "height": 555,
+        "width": 612,
+        "x": 1791,
+        "y": 600
+      },
+      "page": 1,
+      "rotated": false,
+      "sourcePath": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_05.png",
+      "sourceSize": {
+        "height": 640,
+        "width": 640
+      },
+      "spriteSourceSize": {
+        "height": 555,
+        "width": 612,
+        "x": 27,
+        "y": 71
+      }
+    }
+  },
+  "pages": [
+    {
+      "height": 3738,
+      "image": "assets/atlas/boss_1_0.png",
+      "index": 0,
+      "width": 4086
+    },
+    {
+      "height": 1707,
+      "image": "assets/atlas/boss_1_1.png",
+      "index": 1,
+      "width": 4017
+    }
+  ]
+}

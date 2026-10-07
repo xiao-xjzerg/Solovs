@@ -1,0 +1,7 @@
+﻿skill_id,name_cn,target,anim_id,hit_frame,cast_range_min,cast_range_max,cooldown_ms,weight,damage,params,chain,super_armor,notes
+melee,劈砍,player,boss_1_melee,3,0,400,2000,4,20,"""melee_params""",,TRUE,近距主招，范围劈砍，击中后，从BOSS到玩家的方向击退
+ground_pound,阵地重击,player,boss_1_ground_pound,4,0,600,20000,3,40,"""ground_pound_params""",,TRUE,BOSS自身为圆心AOE，击中后，从BOSS到玩家的方向击退
+throw,投射,player,boss_1_throw,,600,1200,6000,3,16,"""throw_params""",,TRUE,投射物;hit_frame=掷出帧(此帧生成投射物);锁定瞬间位置可躲
+crystal_pulse,水晶脉冲,player,boss_1_casting,,600,1200,25000,2,10,"""crystal_pulse_params""",,TRUE,施法状态：连续施放3波，每波都锁定玩家当前的位置，前摇1秒，然后玩家所在的地面出现钉刺。
+bull_rush,蛮力冲锋,player,boss_1_rush,4,400,1200,10000,3,20,"""bull_rush_params""",ground_pound,TRUE,HP首次<50%进P2，结束连段接ground_pound;
+phase_2_transition,二阶段爆发,self,boss_1_phase_2,,0,0,0,0,0,,,TRUE,System-only phase transition sequence; never selected by boss AI. Runtime dispatch support is pending.

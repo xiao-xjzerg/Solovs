@@ -1,0 +1,5 @@
+﻿effect_id,skill_id,trigger,effect_type,force,amount,duration_ms,direction_policy,stack_policy,max_stacks,notes
+melee_knockback,melee,on_hit,knockback,100,,,boss_to_target,not_applicable,1,From BOSS toward player.
+ground_pound_knockback,ground_pound,on_hit,knockback,200,,,boss_to_target,not_applicable,1,From BOSS toward player.
+crystal_pulse_slow,crystal_pulse,on_hit,slow,,0.4,2000,not_applicable,refresh_duration,1,Slow amount and duration come from the current Skills sheet.
+bull_rush_knockback,bull_rush,on_hit,knockback,100,,,boss_to_target,not_applicable,1,From BOSS toward player.

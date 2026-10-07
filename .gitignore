@@ -1,0 +1,49 @@
+# Local project coordination documents
+agent.md
+docs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Node / Python environments and caches
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.cache/
+dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.out
+*.pid
+
+# Generated browser QA artifacts
+tests/smoke-browser.png
+tests/melee-vfx-debug.png
+tests/visual-clamp-debug.png
+.edge-*/
+tests/.edge-*/
+
+# Local test scripts and browser artifacts
+tests/

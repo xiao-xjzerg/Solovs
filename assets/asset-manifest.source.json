@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "player": {
+    "baseVisualScale": 0.4,
+    "displaySize": { "width": 160, "height": 184 },
+    "visualBounds": { "top": 197 },
+    "baseDirections": ["L", "UL", "U", "DL", "D"],
+    "directionOrder": ["L", "UL", "U", "UR", "R", "DR", "D", "DL"],
+    "animations": {
+      "move": {
+        "path": "assets/characters/player/player_move/player_move_{DIR}_{FRAME}.png",
+        "frameCount": 6,
+        "frameSize": [400, 460],
+        "fps": 12,
+        "required": true
+      },
+      "attack": {
+        "path": "assets/characters/player/player_attack/player_attack_{DIR}_{FRAME}.png",
+        "frameCount": 6,
+        "frameSize": [600, 540],
+        "frameDurationsMs": [105, 105, 145, 45, 65, 175],
+        "activeFrames": [3, 4],
+        "hitFrame": 4,
+        "required": true
+      }
+    },
+    "directions": {
+      "L": {
+        "source": "L",
+        "mirror": false,
+        "vector": [-1, 0],
+        "moveAnchor": [155, 426],
+        "attackAnchor": [365, 498],
+        "attackDisplayScale": 0.924,
+        "hitOriginOffset": [0, -72],
+        "slashFrames": {
+          "3": { "pivot": [144, 45], "offset": [-94, -139], "rotation": 0, "localFlipX": true, "alpha": 0.72 },
+          "4": { "pivot": [110.5, 144.5], "offset": [-119, -79], "rotation": 0, "localFlipX": true, "alpha": 0.92 },
+          "5": { "pivot": [74, 121.5], "offset": [-127, -79], "rotation": 0, "localFlipX": true, "alpha": 0.18 }
+        }
+      },
+      "UL": {
+        "source": "UL",
+        "mirror": false,
+        "vector": [-0.7071067812, -0.7071067812],
+        "moveAnchor": [165, 426],
+        "attackAnchor": [335, 503],
+        "attackDisplayScale": 0.74,
+        "hitOriginOffset": [6, -62],
+        "slashFrames": {
+          "3": { "pivot": [144, 45], "offset": [-106, -135], "rotation": 0.7853981634, "localFlipX": true, "alpha": 0.68 },
+          "4": { "pivot": [110.5, 144.5], "offset": [-116, -139], "rotation": 0.7853981634, "localFlipX": true, "alpha": 0.84 },
+          "5": { "pivot": [74, 121.5], "offset": [-108, -125], "rotation": 0.7853981634, "localFlipX": true, "alpha": 0.16 }
+        }
+      },
+      "U": {
+        "source": "U",
+        "mirror": false,
+        "vector": [0, -1],
+        "moveAnchor": [190, 427],
+        "attackAnchor": [295, 503],
+        "attackDisplayScale": 0.977,
+        "hitOriginOffset": [8, -20],
+        "slashFrames": {
+          "3": { "pivot": [144, 45], "offset": [-4, -145], "rotation": 1.5707963268, "localFlipX": true, "alpha": 0.7 },
+          "4": { "pivot": [110.5, 144.5], "offset": [0, -158], "rotation": 1.5707963268, "localFlipX": true, "alpha": 0.84 },
+          "5": { "pivot": [74, 121.5], "offset": [4, -146], "rotation": 1.5707963268, "localFlipX": true, "alpha": 0.15 }
+        }
+      },
+      "UR": {
+        "source": "UL",
+        "mirror": true,
+        "vector": [0.7071067812, -0.7071067812],
+        "mirrorOf": "UL"
+      },
+      "R": {
+        "source": "L",
+        "mirror": true,
+        "vector": [1, 0],
+        "mirrorOf": "L"
+      },
+      "DR": {
+        "source": "DL",
+        "mirror": true,
+        "vector": [0.7071067812, 0.7071067812],
+        "mirrorOf": "DL"
+      },
+      "D": {
+        "source": "D",
+        "mirror": false,
+        "vector": [0, 1],
+        "moveAnchor": [190, 427],
+        "attackAnchor": [315, 503],
+        "attackDisplayScale": 0.846,
+        "hitOriginOffset": [-10, -54],
+        "slashFrames": {
+          "3": { "pivot": [144, 45], "offset": [-4, 24], "rotation": -1.5707963268, "localFlipX": true, "alpha": 0.7 },
+          "4": { "pivot": [110.5, 144.5], "offset": [0, 48], "rotation": -1.5707963268, "localFlipX": true, "alpha": 0.84 },
+          "5": { "pivot": [74, 121.5], "offset": [4, 36], "rotation": -1.5707963268, "localFlipX": true, "alpha": 0.15 }
+        }
+      },
+      "DL": {
+        "source": "DL",
+        "mirror": false,
+        "vector": [-0.7071067812, 0.7071067812],
+        "moveAnchor": [180, 428],
+        "attackAnchor": [340, 510],
+        "attackDisplayScale": 0.938,
+        "hitOriginOffset": [-5, -95],
+        "slashFrames": {
+          "3": { "pivot": [144, 45], "offset": [-108, -48], "rotation": -0.7853981634, "localFlipX": true, "alpha": 0.68 },
+          "4": { "pivot": [110.5, 144.5], "offset": [-122, -33], "rotation": -0.7853981634, "localFlipX": true, "alpha": 0.84 },
+          "5": { "pivot": [74, 121.5], "offset": [-112, -28], "rotation": -0.7853981634, "localFlipX": true, "alpha": 0.16 }
+        }
+      }
+    }
+  },
+  "effects": {
+    "attackSlash": {
+      "path": "assets/effects/Slash Effect/attack_slash_R_{FRAME}.png",
+      "sourceDirection": "R",
+      "frames": [3, 4, 5],
+      "frameSize": { "3": [288, 90], "4": [221, 289], "5": [148, 243] },
+      "scale": 1.5,
+      "required": false
+    }
+  },
+  "cursor": {
+    "default": "assets/cursor/cursor_default_64.png",
+    "pressed": "assets/cursor/cursor_pressed_64.png"
+  }
+}

@@ -1,0 +1,1355 @@
+{
+  "_meta": {
+    "generator": "tools/build_boss_config.py",
+    "generatorVersion": 3,
+    "schemaVersion": 2,
+    "source": "skill_config_v1.xlsx",
+    "sourceSha256": "cde65dbd79b26621247dc41004e84039b602da9acd810fb37bd3f6ef4bcaca16",
+    "warnings": [
+      "Animation boss_1_death has TBD frame data",
+      "Animation boss_1_death has no usable frames",
+      "SFX boss_1_casting has no file path",
+      "SFX boss_1_ground_pound has no file path",
+      "SFX boss_1_melee has no file path",
+      "SFX boss_1_run has no file path",
+      "SFX boss_1_throw has no file path"
+    ]
+  },
+  "animations": {
+    "boss_1_casting": {
+      "action": "casting",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_casting:0",
+          "durationMs": 167,
+          "index": 0,
+          "notes": "6-frame loop ~=1000ms/cycle; loops 3x = 3000ms = 3 waves",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_casting:1",
+          "durationMs": 167,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_casting:2",
+          "durationMs": 166,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_casting:3",
+          "durationMs": 167,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_casting:4",
+          "durationMs": 166,
+          "index": 4,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_casting:5",
+          "durationMs": 167,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_casting",
+      "loop": true,
+      "loopEndFrame": 5,
+      "loopStartFrame": 0,
+      "notes": "Complete BOSS casting animation; current description loops for 3000 ms.",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 1000
+    },
+    "boss_1_death": {
+      "action": "death",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [],
+      "id": "boss_1_death",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "to be determined",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 0
+    },
+    "boss_1_gethurt": {
+      "action": "hurt",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_gethurt:0",
+          "durationMs": 80,
+          "index": 0,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_gethurt:1",
+          "durationMs": 80,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_gethurt:2",
+          "durationMs": 80,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_gethurt:3",
+          "durationMs": 80,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_gethurt:4",
+          "durationMs": 80,
+          "index": 4,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_gethurt:5",
+          "durationMs": 80,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_gethurt",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "to be determined",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 480
+    },
+    "boss_1_ground_pound": {
+      "action": "ground_pound",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_ground_pound:0",
+          "durationMs": 150,
+          "index": 0,
+          "notes": "frames 0-3 = warning windup (ground_crack_ring)",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_ground_pound:1",
+          "durationMs": 500,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_ground_pound:2",
+          "durationMs": 500,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_ground_pound:3",
+          "durationMs": 500,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_ground_pound:4",
+          "durationMs": 90,
+          "index": 4,
+          "notes": "hit_frame; impact + shake",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_ground_pound:5",
+          "durationMs": 260,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_ground_pound",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "Complete BOSS ground-pound animation.",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 2000
+    },
+    "boss_1_idle": {
+      "action": "idle",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_idle:0",
+          "durationMs": 200,
+          "index": 0,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_idle:1",
+          "durationMs": 200,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_idle:2",
+          "durationMs": 200,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_idle:3",
+          "durationMs": 200,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_idle:4",
+          "durationMs": 200,
+          "index": 4,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_idle:5",
+          "durationMs": 200,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_idle",
+      "loop": true,
+      "loopEndFrame": 5,
+      "loopStartFrame": 0,
+      "notes": "to be determined",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 1200
+    },
+    "boss_1_melee": {
+      "action": "melee",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_melee:0",
+          "durationMs": 105,
+          "index": 0,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_melee:1",
+          "durationMs": 200,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_melee:2",
+          "durationMs": 350,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_melee:3",
+          "durationMs": 200,
+          "index": 3,
+          "notes": "Skill_events displays boss_1_melee_slash with the same frame number.",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_melee:4",
+          "durationMs": 200,
+          "index": 4,
+          "notes": "Skill_events displays boss_1_melee_slash with the same frame number.",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_melee:5",
+          "durationMs": 175,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_melee",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "Complete BOSS melee animation and the only timing source for the synced slash effect.",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 1230
+    },
+    "boss_1_move": {
+      "action": "move",
+      "directionMode": "cardinal_4",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_move:0",
+          "durationMs": 120,
+          "index": 0,
+          "notes": "{DIR} expands to D/R/U on disk (L mirrors R)",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_move:1",
+          "durationMs": 120,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_move:2",
+          "durationMs": 120,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_move:3",
+          "durationMs": 120,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_move:4",
+          "durationMs": 120,
+          "index": 4,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_move:5",
+          "durationMs": 120,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_move",
+      "loop": true,
+      "loopEndFrame": 5,
+      "loopStartFrame": 0,
+      "notes": "to be determined",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 720
+    },
+    "boss_1_phase_2": {
+      "action": "phase_transition",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_phase_2:0",
+          "durationMs": 250,
+          "index": 0,
+          "notes": "Tense posture; anger gathers.",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_phase_2:1",
+          "durationMs": 300,
+          "index": 1,
+          "notes": "Inhale and lower the center of gravity; prepare to roar.",
+          "visualScale": 1.1
+        },
+        {
+          "assetId": "boss_1_phase_2:2",
+          "durationMs": 350,
+          "index": 2,
+          "notes": "Head lifts and roar begins; gold alpha-mask VFX and screen shake start.",
+          "visualScale": 1.2
+        },
+        {
+          "assetId": "boss_1_phase_2:3",
+          "durationMs": 450,
+          "index": 3,
+          "notes": "Peak upward roar.",
+          "visualScale": 1.3
+        },
+        {
+          "assetId": "boss_1_phase_2:4",
+          "durationMs": 350,
+          "index": 4,
+          "notes": "Sustain the roar and explosive power.",
+          "visualScale": 1.4
+        },
+        {
+          "assetId": "boss_1_phase_2:5",
+          "durationMs": 300,
+          "index": 5,
+          "notes": "Final peak; reset visual scale to 1.00 after animation completion.",
+          "visualScale": 1.5
+        }
+      ],
+      "id": "boss_1_phase_2",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "Six-frame 2000 ms rage transition. Runtime visual_scale grows from 1.00 to 1.50, then resets to 1.00 when the animation completes. Gold alpha-mask VFX and screen shake begin on frame 02.",
+      "ownerId": "boss_1",
+      "required": false,
+      "totalDurationMs": 2000
+    },
+    "boss_1_rush": {
+      "action": "rush",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_rush:0",
+          "durationMs": 150,
+          "index": 0,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_rush:1",
+          "durationMs": 160,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_rush:2",
+          "durationMs": 170,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_rush:3",
+          "durationMs": 180,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_rush:4",
+          "durationMs": 80,
+          "index": 4,
+          "notes": "hit_frame; rush_gold_overlay starts",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_rush:5",
+          "durationMs": 120,
+          "index": 5,
+          "notes": "hold/loop frame 05 during dash until reaching player",
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_rush",
+      "loop": true,
+      "loopEndFrame": 5,
+      "loopStartFrame": 5,
+      "notes": "Complete BOSS rush animation; hold/loop frame 05 after frame 04 until rush ends.",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 860
+    },
+    "boss_1_throw": {
+      "action": "throw",
+      "directionMode": "horizontal_mirror",
+      "displayScale": 1,
+      "frames": [
+        {
+          "assetId": "boss_1_throw:0",
+          "durationMs": 120,
+          "index": 0,
+          "notes": "frames 0-3 = aim windup",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_throw:1",
+          "durationMs": 140,
+          "index": 1,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_throw:2",
+          "durationMs": 300,
+          "index": 2,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_throw:3",
+          "durationMs": 300,
+          "index": 3,
+          "notes": null,
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_throw:4",
+          "durationMs": 60,
+          "index": 4,
+          "notes": "projectile spawn (crystal_spear)",
+          "visualScale": 1
+        },
+        {
+          "assetId": "boss_1_throw:5",
+          "durationMs": 250,
+          "index": 5,
+          "notes": null,
+          "visualScale": 1
+        }
+      ],
+      "id": "boss_1_throw",
+      "loop": false,
+      "loopEndFrame": null,
+      "loopStartFrame": null,
+      "notes": "Complete BOSS throwing animation.",
+      "ownerId": "boss_1",
+      "required": true,
+      "totalDurationMs": 1170
+    }
+  },
+  "bosses": {
+    "boss_1": {
+      "aggroRange": 1500,
+      "animations": {
+        "death": "boss_1_death",
+        "hurt": "boss_1_gethurt",
+        "idle": "boss_1_idle",
+        "move": "boss_1_move",
+        "phaseTransition": "boss_1_phase_2"
+      },
+      "body": {
+        "height": 50,
+        "offsetX": 0,
+        "offsetY": -25,
+        "shape": "ellipse",
+        "width": 200
+      },
+      "display": {
+        "anchorX": 160,
+        "anchorY": 320,
+        "height": 320,
+        "width": 320
+      },
+      "hurtbox": {
+        "height": 300,
+        "offsetX": 0,
+        "offsetY": -160,
+        "shape": "ellipse",
+        "width": 300
+      },
+      "id": "boss_1",
+      "initialPhase": 1,
+      "maxHp": 500,
+      "moveSpeed": 150,
+      "name": "Crystallor",
+      "notes": "Display size 320 comes from the current design discussion.",
+      "phases": [
+        {
+          "hpMaxPct": 100,
+          "hpMinPct": 50,
+          "maxInclusive": true,
+          "minInclusive": true,
+          "notes": "Phase 1 applies at 50% to 100% HP.",
+          "phase": 1,
+          "skills": [
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "melee",
+              "weight": 4
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "ground_pound",
+              "weight": 3
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "throw",
+              "weight": 3
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "crystal_pulse",
+              "weight": 2
+            }
+          ],
+          "transitionAnimationId": null,
+          "transitionSfxId": null,
+          "transitionVfxId": null,
+          "windupScale": 1
+        },
+        {
+          "hpMaxPct": 50,
+          "hpMinPct": 0,
+          "maxInclusive": false,
+          "minInclusive": true,
+          "notes": "Phase 2 begins below 50% HP. Play the 2000 ms rage transition: grow 1.00→1.50, start gold alpha-mask VFX and screen shake on frame 02, then restore visual scale to 1.00.",
+          "phase": 2,
+          "skills": [
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "melee",
+              "weight": 4
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "ground_pound",
+              "weight": 3
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "throw",
+              "weight": 3
+            },
+            {
+              "notes": "Available in phases 1 and 2.",
+              "skillId": "crystal_pulse",
+              "weight": 2
+            },
+            {
+              "notes": "Unlocked in phase 2.",
+              "skillId": "bull_rush",
+              "weight": 3
+            }
+          ],
+          "transitionAnimationId": "boss_1_phase_2",
+          "transitionSfxId": null,
+          "transitionVfxId": "boss_1_phase_gold_tint",
+          "windupScale": 1
+        }
+      ],
+      "visualBounds": {
+        "top": 320
+      }
+    }
+  },
+  "projectiles": {
+    "crystal_spear": {
+      "collideWorld": true,
+      "colliderHeight": 40,
+      "colliderShape": "rectangle",
+      "colliderWidth": 200,
+      "destroyOnHit": true,
+      "destroyOnWorld": true,
+      "displayHeight": 40,
+      "displayWidth": 200,
+      "id": "crystal_spear",
+      "lifetimeMs": null,
+      "maxDistance": null,
+      "moveMode": "straight",
+      "notes": "Direction = normalized vector from spawn point to target location captured on cast.",
+      "pierceCount": 0,
+      "rotationPolicy": "align_on_spawn",
+      "spawnForwardOffset": 0,
+      "spawnOrigin": "self",
+      "spawnSideOffset": 0,
+      "speed": 800,
+      "targetPolicy": "target_location_on_cast"
+    }
+  },
+  "sfx": {
+    "boss_1_casting": {
+      "id": "boss_1_casting",
+      "loop": true,
+      "maxInstances": 1,
+      "notes": "Current description: looping casting sound.",
+      "required": true,
+      "stopPolicy": "stop_on_skill_end",
+      "volume": null
+    },
+    "boss_1_ground_pound": {
+      "id": "boss_1_ground_pound",
+      "loop": false,
+      "maxInstances": null,
+      "notes": "Current description: BOSS ground-pound sound.",
+      "required": true,
+      "stopPolicy": "play_to_end",
+      "volume": null
+    },
+    "boss_1_melee": {
+      "id": "boss_1_melee",
+      "loop": false,
+      "maxInstances": null,
+      "notes": "Current description: BOSS melee sound.",
+      "required": true,
+      "stopPolicy": "play_to_end",
+      "volume": null
+    },
+    "boss_1_run": {
+      "id": "boss_1_run",
+      "loop": true,
+      "maxInstances": 1,
+      "notes": "Current description: looping running sound.",
+      "required": true,
+      "stopPolicy": "stop_on_skill_end",
+      "volume": null
+    },
+    "boss_1_throw": {
+      "id": "boss_1_throw",
+      "loop": false,
+      "maxInstances": null,
+      "notes": "to be determined",
+      "required": false,
+      "stopPolicy": "play_to_end",
+      "volume": null
+    }
+  },
+  "skillEffects": {
+    "bull_rush_knockback": {
+      "amount": null,
+      "directionPolicy": "boss_to_target",
+      "durationMs": null,
+      "effectType": "knockback",
+      "force": 100,
+      "id": "bull_rush_knockback",
+      "maxStacks": 1,
+      "notes": "From BOSS toward player.",
+      "skillId": "bull_rush",
+      "stackPolicy": "not_applicable",
+      "trigger": "on_hit"
+    },
+    "crystal_pulse_slow": {
+      "amount": 0.4,
+      "directionPolicy": "not_applicable",
+      "durationMs": 2000,
+      "effectType": "slow",
+      "force": null,
+      "id": "crystal_pulse_slow",
+      "maxStacks": 1,
+      "notes": "Slow amount and duration come from the current Skills sheet.",
+      "skillId": "crystal_pulse",
+      "stackPolicy": "refresh_duration",
+      "trigger": "on_hit"
+    },
+    "ground_pound_knockback": {
+      "amount": null,
+      "directionPolicy": "boss_to_target",
+      "durationMs": null,
+      "effectType": "knockback",
+      "force": 200,
+      "id": "ground_pound_knockback",
+      "maxStacks": 1,
+      "notes": "From BOSS toward player.",
+      "skillId": "ground_pound",
+      "stackPolicy": "not_applicable",
+      "trigger": "on_hit"
+    },
+    "melee_knockback": {
+      "amount": null,
+      "directionPolicy": "boss_to_target",
+      "durationMs": null,
+      "effectType": "knockback",
+      "force": 100,
+      "id": "melee_knockback",
+      "maxStacks": 1,
+      "notes": "From BOSS toward player.",
+      "skillId": "melee",
+      "stackPolicy": "not_applicable",
+      "trigger": "on_hit"
+    }
+  },
+  "skillEvents": {
+    "bull_rush_gold": {
+      "animationId": "boss_1_rush",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "bull_rush_gold",
+      "loop": true,
+      "notes": "Starts when boss_1_rush enters frame 04 and remains until the skill ends.",
+      "refId": "rush_gold_overlay",
+      "skillId": "bull_rush",
+      "stopTrigger": "skill_end",
+      "trigger": "enter_frame"
+    },
+    "bull_rush_sfx": {
+      "animationId": "boss_1_rush",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "sfx",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "bull_rush_sfx",
+      "loop": true,
+      "notes": "Looping running sound.",
+      "refId": "boss_1_run",
+      "skillId": "bull_rush",
+      "stopTrigger": "skill_end",
+      "trigger": "enter_frame"
+    },
+    "crystal_pulse_glow": {
+      "animationId": "boss_1_casting",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": null,
+      "frameStart": null,
+      "id": "crystal_pulse_glow",
+      "loop": true,
+      "notes": "Attached to boss_1_casting for the full skill duration.",
+      "refId": "crystal_glow",
+      "skillId": "crystal_pulse",
+      "stopTrigger": "skill_end",
+      "trigger": "cast_start"
+    },
+    "crystal_pulse_sfx": {
+      "animationId": "boss_1_casting",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "sfx",
+      "frameEnd": null,
+      "frameStart": null,
+      "id": "crystal_pulse_sfx",
+      "loop": true,
+      "notes": "Looping casting sound.",
+      "refId": "boss_1_casting",
+      "skillId": "crystal_pulse",
+      "stopTrigger": "skill_end",
+      "trigger": "cast_start"
+    },
+    "crystal_wave_shard": {
+      "animationId": "boss_1_casting",
+      "attachTo": "target_location_each_wave",
+      "delayMs": 1000,
+      "eventType": "vfx",
+      "frameEnd": null,
+      "frameStart": null,
+      "id": "crystal_wave_shard",
+      "loop": false,
+      "notes": "Shard effect appears 1000 ms after warning starts.",
+      "refId": "crystal_shard",
+      "skillId": "crystal_pulse",
+      "stopTrigger": "after_duration",
+      "trigger": "wave_start"
+    },
+    "crystal_wave_warning": {
+      "animationId": "boss_1_casting",
+      "attachTo": "target_location_each_wave",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": null,
+      "frameStart": null,
+      "id": "crystal_wave_warning",
+      "loop": false,
+      "notes": "Each wave locks the player's current position.",
+      "refId": "crystal_pulse_warning",
+      "skillId": "crystal_pulse",
+      "stopTrigger": "after_duration",
+      "trigger": "wave_start"
+    },
+    "ground_pound_sfx": {
+      "animationId": "boss_1_ground_pound",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "sfx",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "ground_pound_sfx",
+      "loop": false,
+      "notes": "Play when boss_1_ground_pound enters frame 04.",
+      "refId": "boss_1_ground_pound",
+      "skillId": "ground_pound",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    },
+    "ground_pound_shake": {
+      "animationId": "boss_1_ground_pound",
+      "attachTo": "screen",
+      "delayMs": 0,
+      "eventType": "camera_shake",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "ground_pound_shake",
+      "loop": false,
+      "notes": "Screen shake when boss_1_ground_pound enters frame 04.",
+      "refId": "ground_pound_camera_shake",
+      "skillId": "ground_pound",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    },
+    "ground_pound_warning": {
+      "animationId": "boss_1_ground_pound",
+      "attachTo": "boss_position",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": 3,
+      "frameStart": 0,
+      "id": "ground_pound_warning",
+      "loop": true,
+      "notes": "Environmental warning follows boss_1_ground_pound frames 00 through 03.",
+      "refId": "ground_crack_ring",
+      "skillId": "ground_pound",
+      "stopTrigger": "frame_range_end",
+      "trigger": "frame_range"
+    },
+    "melee_sfx": {
+      "animationId": "boss_1_melee",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "sfx",
+      "frameEnd": 3,
+      "frameStart": 3,
+      "id": "melee_sfx",
+      "loop": false,
+      "notes": "Play when boss_1_melee enters frame 03.",
+      "refId": "boss_1_melee",
+      "skillId": "melee",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    },
+    "melee_slash_vfx": {
+      "animationId": "boss_1_melee",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": 4,
+      "frameStart": 3,
+      "id": "melee_slash_vfx",
+      "loop": false,
+      "notes": "Uses the current boss_1_melee frame number; no separate VFX timing.",
+      "refId": "boss_1_melee_slash",
+      "skillId": "melee",
+      "stopTrigger": "frame_range_end",
+      "trigger": "frame_range"
+    },
+    "phase_2_camera_shake": {
+      "animationId": "boss_1_phase_2",
+      "attachTo": "screen",
+      "delayMs": 0,
+      "eventType": "camera_shake",
+      "frameEnd": 2,
+      "frameStart": 2,
+      "id": "phase_2_camera_shake",
+      "loop": false,
+      "notes": "Start screen shake when frame 02 begins; configured duration is the remaining 1450 ms.",
+      "refId": "boss_1_phase_camera_shake",
+      "skillId": "phase_2_transition",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    },
+    "phase_2_gold_tint": {
+      "animationId": "boss_1_phase_2",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "vfx",
+      "frameEnd": 5,
+      "frameStart": 2,
+      "id": "phase_2_gold_tint",
+      "loop": true,
+      "notes": "50% gold alpha-mask tint from frame 02 through frame 05; stop when the transition animation ends.",
+      "refId": "boss_1_phase_gold_tint",
+      "skillId": "phase_2_transition",
+      "stopTrigger": "frame_range_end",
+      "trigger": "frame_range"
+    },
+    "throw_projectile": {
+      "animationId": "boss_1_throw",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "projectile_spawn",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "throw_projectile",
+      "loop": false,
+      "notes": "crystal_spear is created when boss_1_throw enters frame 04.",
+      "refId": "crystal_spear",
+      "skillId": "throw",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    },
+    "throw_sfx": {
+      "animationId": "boss_1_throw",
+      "attachTo": "boss",
+      "delayMs": 0,
+      "eventType": "sfx",
+      "frameEnd": 4,
+      "frameStart": 4,
+      "id": "throw_sfx",
+      "loop": false,
+      "notes": "to be determined",
+      "refId": "boss_1_throw",
+      "skillId": "throw",
+      "stopTrigger": null,
+      "trigger": "enter_frame"
+    }
+  },
+  "skills": {
+    "bull_rush": {
+      "animationId": "boss_1_rush",
+      "castRange": {
+        "max": 1200,
+        "min": 400
+      },
+      "chain": "ground_pound",
+      "cooldownMs": 10000,
+      "damage": 20,
+      "effectIds": [
+        "bull_rush_knockback"
+      ],
+      "eventIds": [
+        "bull_rush_gold",
+        "bull_rush_sfx"
+      ],
+      "handler": "charge",
+      "hitFrame": 4,
+      "id": "bull_rush",
+      "name": "蛮力冲锋",
+      "notes": "HP首次<50%进P2，结束连段接ground_pound;",
+      "params": {
+        "endLocation": "target_location_on_cast",
+        "facingPolicy": "lock_on_cast",
+        "originPolicy": "toward_target_on_cast",
+        "speed": 400
+      },
+      "superArmor": true,
+      "target": "player",
+      "weight": 3
+    },
+    "crystal_pulse": {
+      "animationId": "boss_1_casting",
+      "castRange": {
+        "max": 1200,
+        "min": 600
+      },
+      "chain": null,
+      "cooldownMs": 25000,
+      "damage": 10,
+      "effectIds": [
+        "crystal_pulse_slow"
+      ],
+      "eventIds": [
+        "crystal_pulse_glow",
+        "crystal_pulse_sfx",
+        "crystal_wave_shard",
+        "crystal_wave_warning"
+      ],
+      "handler": "spawner",
+      "hitFrame": null,
+      "id": "crystal_pulse",
+      "name": "水晶脉冲",
+      "notes": "施法状态：连续施放3波，每波都锁定玩家当前的位置，前摇1秒，然后玩家所在的地面出现钉刺。",
+      "params": {
+        "aoeShape": "circle",
+        "durationMs": 3000,
+        "radius": 200,
+        "releaseLocation": "target_location_each_wave",
+        "waveIntervalMs": 1000,
+        "waves": 3
+      },
+      "superArmor": true,
+      "target": "player",
+      "weight": 2
+    },
+    "ground_pound": {
+      "animationId": "boss_1_ground_pound",
+      "castRange": {
+        "max": 600,
+        "min": 0
+      },
+      "chain": null,
+      "cooldownMs": 20000,
+      "damage": 40,
+      "effectIds": [
+        "ground_pound_knockback"
+      ],
+      "eventIds": [
+        "ground_pound_sfx",
+        "ground_pound_shake",
+        "ground_pound_warning"
+      ],
+      "handler": "circle",
+      "hitFrame": 4,
+      "id": "ground_pound",
+      "name": "阵地重击",
+      "notes": "BOSS自身为圆心AOE，击中后，从BOSS到玩家的方向击退",
+      "params": {
+        "facingPolicy": "lock_on_cast",
+        "origin": "self",
+        "originForwardOffset": 0,
+        "originPolicy": "toward_target_on_cast",
+        "radius": 800,
+        "shape": "circle"
+      },
+      "superArmor": true,
+      "target": "player",
+      "weight": 3
+    },
+    "melee": {
+      "animationId": "boss_1_melee",
+      "castRange": {
+        "max": 400,
+        "min": 0
+      },
+      "chain": null,
+      "cooldownMs": 2000,
+      "damage": 20,
+      "effectIds": [
+        "melee_knockback"
+      ],
+      "eventIds": [
+        "melee_sfx",
+        "melee_slash_vfx"
+      ],
+      "handler": "arc",
+      "hitFrame": 3,
+      "id": "melee",
+      "name": "劈砍",
+      "notes": "近距主招，范围劈砍，击中后，从BOSS到玩家的方向击退",
+      "params": {
+        "angleDeg": 120,
+        "facingPolicy": "lock_on_cast",
+        "origin": "self",
+        "originForwardOffset": 160,
+        "originOffsetX": 0,
+        "originOffsetY": -160,
+        "originPolicy": "toward_target_on_cast",
+        "radius": 240,
+        "shape": "arc",
+        "targetReference": "hurtbox_center"
+      },
+      "superArmor": true,
+      "target": "player",
+      "weight": 4
+    },
+    "phase_2_transition": {
+      "animationId": "boss_1_phase_2",
+      "castRange": {
+        "max": 0,
+        "min": 0
+      },
+      "chain": null,
+      "cooldownMs": 0,
+      "damage": 0,
+      "effectIds": [],
+      "eventIds": [
+        "phase_2_camera_shake",
+        "phase_2_gold_tint"
+      ],
+      "handler": "sequence",
+      "hitFrame": null,
+      "id": "phase_2_transition",
+      "name": "二阶段爆发",
+      "notes": "System-only phase transition sequence; never selected by boss AI. Runtime dispatch support is pending.",
+      "params": {},
+      "superArmor": true,
+      "target": "self",
+      "weight": 0
+    },
+    "throw": {
+      "animationId": "boss_1_throw",
+      "castRange": {
+        "max": 1200,
+        "min": 600
+      },
+      "chain": null,
+      "cooldownMs": 6000,
+      "damage": 16,
+      "effectIds": [],
+      "eventIds": [
+        "throw_projectile",
+        "throw_sfx"
+      ],
+      "handler": "projectile",
+      "hitFrame": null,
+      "id": "throw",
+      "name": "投射",
+      "notes": "投射物;hit_frame=掷出帧(此帧生成投射物);锁定瞬间位置可躲",
+      "params": {
+        "facingPolicy": "lock_on_cast",
+        "origin": "self",
+        "originForwardOffset": 0,
+        "originPolicy": "toward_target_on_cast",
+        "shape": "crystal_spear",
+        "speed": 800
+      },
+      "superArmor": true,
+      "target": "player",
+      "weight": 3
+    }
+  },
+  "vfx": {
+    "boss_1_melee_slash": {
+      "alpha": 1,
+      "blendMode": "screen",
+      "color": null,
+      "durationMs": null,
+      "frameSource": "skill_event_anim_frame",
+      "id": "boss_1_melee_slash",
+      "kind": "synced_sprite_frames",
+      "lineWidth": null,
+      "loop": false,
+      "notes": "Use the boss_1_melee frame number from Skill_events; {FRAME} resolves to 03 or 04.",
+      "radius": null,
+      "renderer": "canvas",
+      "required": true,
+      "scale": 1
+    },
+    "boss_1_phase_camera_shake": {
+      "alpha": null,
+      "blendMode": "not_applicable",
+      "color": null,
+      "durationMs": 1450,
+      "frameSource": "animation_event",
+      "id": "boss_1_phase_camera_shake",
+      "kind": "camera_shake",
+      "lineWidth": null,
+      "loop": false,
+      "notes": "Starts on phase-transition frame 02 and lasts through frame 05. Shake amplitude remains a runtime tuning parameter.",
+      "radius": null,
+      "renderer": "camera",
+      "required": false,
+      "scale": 1
+    },
+    "boss_1_phase_gold_tint": {
+      "alpha": 0.5,
+      "blendMode": "screen",
+      "color": "golden",
+      "durationMs": null,
+      "frameSource": "animation_event",
+      "id": "boss_1_phase_gold_tint",
+      "kind": "procedural_tint",
+      "lineWidth": null,
+      "loop": true,
+      "notes": "Use the current sprite alpha as a source-atop mask, so only nontransparent character pixels glow. Frame range controls lifetime.",
+      "radius": null,
+      "renderer": "canvas",
+      "required": false,
+      "scale": 1
+    },
+    "crystal_glow": {
+      "alpha": 0.5,
+      "blendMode": "screen",
+      "color": "golden",
+      "durationMs": null,
+      "frameSource": "skill_event",
+      "id": "crystal_glow",
+      "kind": "procedural_glow",
+      "lineWidth": null,
+      "loop": true,
+      "notes": "Lifetime is controlled by Skill_events.stop_trigger.",
+      "radius": null,
+      "renderer": "canvas",
+      "required": false,
+      "scale": 1
+    },
+    "crystal_pulse_warning": {
+      "alpha": 0.5,
+      "blendMode": "source-over",
+      "color": "red",
+      "durationMs": 1000,
+      "frameSource": "event_duration",
+      "id": "crystal_pulse_warning",
+      "kind": "procedural_circle",
+      "lineWidth": null,
+      "loop": false,
+      "notes": "Independent 1000 ms warning for each wave.",
+      "radius": 200,
+      "renderer": "canvas",
+      "required": false,
+      "scale": 1
+    },
+    "crystal_shard": {
+      "alpha": 1,
+      "blendMode": "source-over",
+      "color": null,
+      "durationMs": 500,
+      "frameSource": "own_animation",
+      "id": "crystal_shard",
+      "kind": "independent_animation",
+      "lineWidth": null,
+      "loop": false,
+      "notes": "Uses its own animation because it continues independently after the wave event.",
+      "radius": 200,
+      "renderer": "canvas",
+      "required": true,
+      "scale": 1
+    },
+    "ground_crack_ring": {
+      "alpha": 0.5,
+      "blendMode": "source-over",
+      "color": "red",
+      "durationMs": null,
+      "frameSource": "skill_event",
+      "id": "ground_crack_ring",
+      "kind": "procedural_circle",
+      "lineWidth": null,
+      "loop": true,
+      "notes": "Visible during the Skill_events animation frame range.",
+      "radius": 800,
+      "renderer": "canvas",
+      "required": false,
+      "scale": 1
+    },
+    "ground_pound_camera_shake": {
+      "alpha": null,
+      "blendMode": "not_applicable",
+      "color": null,
+      "durationMs": 500,
+      "frameSource": "skill_event",
+      "id": "ground_pound_camera_shake",
+      "kind": "camera_shake",
+      "lineWidth": null,
+      "loop": false,
+      "notes": "Shake duration and power require approval.",
+      "radius": null,
+      "renderer": "camera",
+      "required": false,
+      "scale": 1
+    },
+    "rush_gold_overlay": {
+      "alpha": 0.5,
+      "blendMode": "screen",
+      "color": "golden",
+      "durationMs": null,
+      "frameSource": "skill_event",
+      "id": "rush_gold_overlay",
+      "kind": "procedural_tint",
+      "lineWidth": null,
+      "loop": true,
+      "notes": "Lifetime is controlled by Skill_events.stop_trigger.",
+      "radius": null,
+      "renderer": "canvas",
+      "required": false,
+      "scale": 1
+    }
+  }
+}

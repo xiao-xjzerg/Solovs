@@ -1,0 +1,16 @@
+﻿event_id,skill_id,anim_id,trigger,frame_start,frame_end,delay_ms,event_type,ref_id,attach_to,loop,stop_trigger,notes
+melee_slash_vfx,melee,boss_1_melee,frame_range,3,4,0,vfx,boss_1_melee_slash,boss,FALSE,frame_range_end,Uses the current boss_1_melee frame number; no separate VFX timing.
+melee_sfx,melee,boss_1_melee,enter_frame,3,3,0,sfx,boss_1_melee,boss,FALSE,,Play when boss_1_melee enters frame 03.
+ground_pound_warning,ground_pound,boss_1_ground_pound,frame_range,0,3,0,vfx,ground_crack_ring,boss_position,TRUE,frame_range_end,Environmental warning follows boss_1_ground_pound frames 00 through 03.
+ground_pound_shake,ground_pound,boss_1_ground_pound,enter_frame,4,4,0,camera_shake,ground_pound_camera_shake,screen,FALSE,,Screen shake when boss_1_ground_pound enters frame 04.
+ground_pound_sfx,ground_pound,boss_1_ground_pound,enter_frame,4,4,0,sfx,boss_1_ground_pound,boss,FALSE,,Play when boss_1_ground_pound enters frame 04.
+throw_projectile,throw,boss_1_throw,enter_frame,4,4,0,projectile_spawn,crystal_spear,boss,FALSE,,crystal_spear is created when boss_1_throw enters frame 04.
+throw_sfx,throw,boss_1_throw,enter_frame,4,4,0,sfx,boss_1_throw,boss,FALSE,,to be determined
+crystal_pulse_glow,crystal_pulse,boss_1_casting,cast_start,,,0,vfx,crystal_glow,boss,TRUE,skill_end,Attached to boss_1_casting for the full skill duration.
+crystal_pulse_sfx,crystal_pulse,boss_1_casting,cast_start,,,0,sfx,boss_1_casting,boss,TRUE,skill_end,Looping casting sound.
+crystal_wave_warning,crystal_pulse,boss_1_casting,wave_start,,,0,vfx,crystal_pulse_warning,target_location_each_wave,FALSE,after_duration,Each wave locks the player's current position.
+crystal_wave_shard,crystal_pulse,boss_1_casting,wave_start,,,1000,vfx,crystal_shard,target_location_each_wave,FALSE,after_duration,Shard effect appears 1000 ms after warning starts.
+bull_rush_gold,bull_rush,boss_1_rush,enter_frame,4,4,0,vfx,rush_gold_overlay,boss,TRUE,skill_end,Starts when boss_1_rush enters frame 04 and remains until the skill ends.
+bull_rush_sfx,bull_rush,boss_1_rush,enter_frame,4,4,0,sfx,boss_1_run,boss,TRUE,skill_end,Looping running sound.
+phase_2_gold_tint,phase_2_transition,boss_1_phase_2,frame_range,2,5,0,vfx,boss_1_phase_gold_tint,boss,TRUE,frame_range_end,50% gold alpha-mask tint from frame 02 through frame 05; stop when the transition animation ends.
+phase_2_camera_shake,phase_2_transition,boss_1_phase_2,enter_frame,2,2,0,camera_shake,boss_1_phase_camera_shake,screen,FALSE,,Start screen shake when frame 02 begins; configured duration is the remaining 1450 ms.

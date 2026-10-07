@@ -1,0 +1,10 @@
+﻿boss_id,phase,skill_id,weight_override,enabled,notes
+boss_1,1,melee,4,TRUE,Available in phases 1 and 2.
+boss_1,1,ground_pound,3,TRUE,Available in phases 1 and 2.
+boss_1,1,throw,3,TRUE,Available in phases 1 and 2.
+boss_1,1,crystal_pulse,2,TRUE,Available in phases 1 and 2.
+boss_1,2,melee,4,TRUE,Available in phases 1 and 2.
+boss_1,2,ground_pound,3,TRUE,Available in phases 1 and 2.
+boss_1,2,throw,3,TRUE,Available in phases 1 and 2.
+boss_1,2,crystal_pulse,2,TRUE,Available in phases 1 and 2.
+boss_1,2,bull_rush,3,TRUE,Unlocked in phase 2.

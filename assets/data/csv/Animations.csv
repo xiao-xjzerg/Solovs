@@ -1,0 +1,11 @@
+﻿anim_id,owner_id,action,loop,loop_start_frame,loop_end_frame,direction_mode,display_scale,required,notes
+boss_1_melee,boss_1,melee,FALSE,,,2,1,TRUE,Complete BOSS melee animation and the only timing source for the synced slash effect.
+boss_1_ground_pound,boss_1,ground_pound,FALSE,,,2,1,TRUE,Complete BOSS ground-pound animation.
+boss_1_throw,boss_1,throw,FALSE,,,2,1,TRUE,Complete BOSS throwing animation.
+boss_1_casting,boss_1,casting,TRUE,0,5,2,1,TRUE,Complete BOSS casting animation; current description loops for 3000 ms.
+boss_1_rush,boss_1,rush,TRUE,5,5,2,1,TRUE,Complete BOSS rush animation; hold/loop frame 05 after frame 04 until rush ends.
+boss_1_idle,boss_1,idle,TRUE,0,5,2,1,TRUE,to be determined
+boss_1_move,boss_1,move,TRUE,0,5,4,1,TRUE,to be determined
+boss_1_gethurt,boss_1,hurt,FALSE,,,2,1,TRUE,to be determined
+boss_1_death,boss_1,death,FALSE,,,2,1,TRUE,to be determined
+boss_1_phase_2,boss_1,phase_transition,FALSE,,,2,1,FALSE,"Six-frame 2000 ms rage transition. Runtime visual_scale grows from 1.00 to 1.50, then resets to 1.00 when the animation completes. Gold alpha-mask VFX and screen shake begin on frame 02."

@@ -1,0 +1,14 @@
+{
+  "name": "solovs-dev-0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:config": "python tools/build_boss_config.py --check",
+    "check:atlas": "python tools/pack_atlas.py --check",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": "26.10.0"
+  },
+  "license": "UNLICENSED"
+}

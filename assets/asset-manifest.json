@@ -1,0 +1,1000 @@
+{
+  "_generated": {
+    "bossConfigSha256": "cde65dbd79b26621247dc41004e84039b602da9acd810fb37bd3f6ef4bcaca16",
+    "generator": "tools/build_boss_config.py",
+    "generatorVersion": 3
+  },
+  "bosses": {
+    "boss_1": {
+      "animations": {
+        "boss_1_casting": {
+          "action": "casting",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_casting:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_00.png"
+            },
+            {
+              "assetId": "boss_1_casting:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_01.png"
+            },
+            {
+              "assetId": "boss_1_casting:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_02.png"
+            },
+            {
+              "assetId": "boss_1_casting:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_03.png"
+            },
+            {
+              "assetId": "boss_1_casting:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_04.png"
+            },
+            {
+              "assetId": "boss_1_casting:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_casting/boss_1_casting_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_death": {
+          "action": "death",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 0,
+          "frames": [],
+          "required": true
+        },
+        "boss_1_gethurt": {
+          "action": "hurt",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_gethurt:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_00.png"
+            },
+            {
+              "assetId": "boss_1_gethurt:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_01.png"
+            },
+            {
+              "assetId": "boss_1_gethurt:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_02.png"
+            },
+            {
+              "assetId": "boss_1_gethurt:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_03.png"
+            },
+            {
+              "assetId": "boss_1_gethurt:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_04.png"
+            },
+            {
+              "assetId": "boss_1_gethurt:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_gethurt/boss_1_gethurt_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_ground_pound": {
+          "action": "ground_pound",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_ground_pound:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_00.png"
+            },
+            {
+              "assetId": "boss_1_ground_pound:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_01.png"
+            },
+            {
+              "assetId": "boss_1_ground_pound:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_02.png"
+            },
+            {
+              "assetId": "boss_1_ground_pound:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_03.png"
+            },
+            {
+              "assetId": "boss_1_ground_pound:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_04.png"
+            },
+            {
+              "assetId": "boss_1_ground_pound:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_ground_pound/boss_1_ground_pound_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_idle": {
+          "action": "idle",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_idle:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_00.png"
+            },
+            {
+              "assetId": "boss_1_idle:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_01.png"
+            },
+            {
+              "assetId": "boss_1_idle:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_02.png"
+            },
+            {
+              "assetId": "boss_1_idle:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_03.png"
+            },
+            {
+              "assetId": "boss_1_idle:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_04.png"
+            },
+            {
+              "assetId": "boss_1_idle:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_idle/boss_1_idle_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_melee": {
+          "action": "melee",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_melee:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_00.png"
+            },
+            {
+              "assetId": "boss_1_melee:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_01.png"
+            },
+            {
+              "assetId": "boss_1_melee:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_02.png"
+            },
+            {
+              "assetId": "boss_1_melee:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_03.png"
+            },
+            {
+              "assetId": "boss_1_melee:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_04.png"
+            },
+            {
+              "assetId": "boss_1_melee:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_melee/boss_1_melee_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_move": {
+          "action": "move",
+          "directionMode": "cardinal_4",
+          "directions": {
+            "D": {
+              "mirror": false,
+              "source": "D"
+            },
+            "L": {
+              "mirror": true,
+              "source": "R"
+            },
+            "R": {
+              "mirror": false,
+              "source": "R"
+            },
+            "U": {
+              "mirror": false,
+              "source": "U"
+            }
+          },
+          "displayScale": 1,
+          "frameCount": 6,
+          "framesByDirection": {
+            "D": [
+              {
+                "assetId": "boss_1_move:0:D",
+                "index": 0,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_00.png"
+              },
+              {
+                "assetId": "boss_1_move:1:D",
+                "index": 1,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_01.png"
+              },
+              {
+                "assetId": "boss_1_move:2:D",
+                "index": 2,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_02.png"
+              },
+              {
+                "assetId": "boss_1_move:3:D",
+                "index": 3,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_03.png"
+              },
+              {
+                "assetId": "boss_1_move:4:D",
+                "index": 4,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_04.png"
+              },
+              {
+                "assetId": "boss_1_move:5:D",
+                "index": 5,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_D_05.png"
+              }
+            ],
+            "R": [
+              {
+                "assetId": "boss_1_move:0:R",
+                "index": 0,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_00.png"
+              },
+              {
+                "assetId": "boss_1_move:1:R",
+                "index": 1,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_01.png"
+              },
+              {
+                "assetId": "boss_1_move:2:R",
+                "index": 2,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_02.png"
+              },
+              {
+                "assetId": "boss_1_move:3:R",
+                "index": 3,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_03.png"
+              },
+              {
+                "assetId": "boss_1_move:4:R",
+                "index": 4,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_04.png"
+              },
+              {
+                "assetId": "boss_1_move:5:R",
+                "index": 5,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_R_05.png"
+              }
+            ],
+            "U": [
+              {
+                "assetId": "boss_1_move:0:U",
+                "index": 0,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_00.png"
+              },
+              {
+                "assetId": "boss_1_move:1:U",
+                "index": 1,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_01.png"
+              },
+              {
+                "assetId": "boss_1_move:2:U",
+                "index": 2,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_02.png"
+              },
+              {
+                "assetId": "boss_1_move:3:U",
+                "index": 3,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_03.png"
+              },
+              {
+                "assetId": "boss_1_move:4:U",
+                "index": 4,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_04.png"
+              },
+              {
+                "assetId": "boss_1_move:5:U",
+                "index": 5,
+                "path": "assets/characters/bosses/boss_1/boss_1_move/boss_1_move_U_05.png"
+              }
+            ]
+          },
+          "required": true
+        },
+        "boss_1_phase_2": {
+          "action": "phase_transition",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_phase_2:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_00.png"
+            },
+            {
+              "assetId": "boss_1_phase_2:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_01.png"
+            },
+            {
+              "assetId": "boss_1_phase_2:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_02.png"
+            },
+            {
+              "assetId": "boss_1_phase_2:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_03.png"
+            },
+            {
+              "assetId": "boss_1_phase_2:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_04.png"
+            },
+            {
+              "assetId": "boss_1_phase_2:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_phase_2/boss_1_phase_2_05.png"
+            }
+          ],
+          "required": false
+        },
+        "boss_1_rush": {
+          "action": "rush",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_rush:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_00.png"
+            },
+            {
+              "assetId": "boss_1_rush:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_01.png"
+            },
+            {
+              "assetId": "boss_1_rush:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_02.png"
+            },
+            {
+              "assetId": "boss_1_rush:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_03.png"
+            },
+            {
+              "assetId": "boss_1_rush:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_04.png"
+            },
+            {
+              "assetId": "boss_1_rush:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_rush/boss_1_rush_05.png"
+            }
+          ],
+          "required": true
+        },
+        "boss_1_throw": {
+          "action": "throw",
+          "directionMode": "horizontal_mirror",
+          "displayScale": 1,
+          "frameCount": 6,
+          "frames": [
+            {
+              "assetId": "boss_1_throw:0",
+              "index": 0,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_00.png"
+            },
+            {
+              "assetId": "boss_1_throw:1",
+              "index": 1,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_01.png"
+            },
+            {
+              "assetId": "boss_1_throw:2",
+              "index": 2,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_02.png"
+            },
+            {
+              "assetId": "boss_1_throw:3",
+              "index": 3,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_03.png"
+            },
+            {
+              "assetId": "boss_1_throw:4",
+              "index": 4,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_04.png"
+            },
+            {
+              "assetId": "boss_1_throw:5",
+              "index": 5,
+              "path": "assets/characters/bosses/boss_1/boss_1_throw/boss_1_throw_05.png"
+            }
+          ],
+          "required": true
+        }
+      },
+      "atlas": {
+        "metadata": "assets/atlas/boss_1.json",
+        "required": false
+      },
+      "displaySize": {
+        "anchorX": 160,
+        "anchorY": 320,
+        "height": 320,
+        "width": 320
+      }
+    }
+  },
+  "cursor": {
+    "default": "assets/cursor/cursor_default_64.png",
+    "pressed": "assets/cursor/cursor_pressed_64.png"
+  },
+  "data": {
+    "bossConfig": "assets/data/boss_config.json"
+  },
+  "effects": {
+    "attackSlash": {
+      "frameSize": {
+        "3": [
+          288,
+          90
+        ],
+        "4": [
+          221,
+          289
+        ],
+        "5": [
+          148,
+          243
+        ]
+      },
+      "frames": [
+        3,
+        4,
+        5
+      ],
+      "path": "assets/effects/Slash Effect/attack_slash_R_{FRAME}.png",
+      "required": false,
+      "scale": 1.5,
+      "sourceDirection": "R"
+    }
+  },
+  "player": {
+    "animations": {
+      "attack": {
+        "activeFrames": [
+          3,
+          4
+        ],
+        "frameCount": 6,
+        "frameDurationsMs": [
+          105,
+          105,
+          145,
+          45,
+          65,
+          175
+        ],
+        "frameSize": [
+          600,
+          540
+        ],
+        "hitFrame": 4,
+        "path": "assets/characters/player/player_attack/player_attack_{DIR}_{FRAME}.png",
+        "required": true
+      },
+      "move": {
+        "fps": 12,
+        "frameCount": 6,
+        "frameSize": [
+          400,
+          460
+        ],
+        "path": "assets/characters/player/player_move/player_move_{DIR}_{FRAME}.png",
+        "required": true
+      }
+    },
+    "baseDirections": [
+      "L",
+      "UL",
+      "U",
+      "DL",
+      "D"
+    ],
+    "baseVisualScale": 0.4,
+    "directionOrder": [
+      "L",
+      "UL",
+      "U",
+      "UR",
+      "R",
+      "DR",
+      "D",
+      "DL"
+    ],
+    "directions": {
+      "D": {
+        "attackAnchor": [
+          315,
+          503
+        ],
+        "attackDisplayScale": 0.846,
+        "hitOriginOffset": [
+          -10,
+          -54
+        ],
+        "mirror": false,
+        "moveAnchor": [
+          190,
+          427
+        ],
+        "slashFrames": {
+          "3": {
+            "alpha": 0.7,
+            "localFlipX": true,
+            "offset": [
+              -4,
+              24
+            ],
+            "pivot": [
+              144,
+              45
+            ],
+            "rotation": -1.5707963268
+          },
+          "4": {
+            "alpha": 0.84,
+            "localFlipX": true,
+            "offset": [
+              0,
+              48
+            ],
+            "pivot": [
+              110.5,
+              144.5
+            ],
+            "rotation": -1.5707963268
+          },
+          "5": {
+            "alpha": 0.15,
+            "localFlipX": true,
+            "offset": [
+              4,
+              36
+            ],
+            "pivot": [
+              74,
+              121.5
+            ],
+            "rotation": -1.5707963268
+          }
+        },
+        "source": "D",
+        "vector": [
+          0,
+          1
+        ]
+      },
+      "DL": {
+        "attackAnchor": [
+          340,
+          510
+        ],
+        "attackDisplayScale": 0.938,
+        "hitOriginOffset": [
+          -5,
+          -95
+        ],
+        "mirror": false,
+        "moveAnchor": [
+          180,
+          428
+        ],
+        "slashFrames": {
+          "3": {
+            "alpha": 0.68,
+            "localFlipX": true,
+            "offset": [
+              -108,
+              -48
+            ],
+            "pivot": [
+              144,
+              45
+            ],
+            "rotation": -0.7853981634
+          },
+          "4": {
+            "alpha": 0.84,
+            "localFlipX": true,
+            "offset": [
+              -122,
+              -33
+            ],
+            "pivot": [
+              110.5,
+              144.5
+            ],
+            "rotation": -0.7853981634
+          },
+          "5": {
+            "alpha": 0.16,
+            "localFlipX": true,
+            "offset": [
+              -112,
+              -28
+            ],
+            "pivot": [
+              74,
+              121.5
+            ],
+            "rotation": -0.7853981634
+          }
+        },
+        "source": "DL",
+        "vector": [
+          -0.7071067812,
+          0.7071067812
+        ]
+      },
+      "DR": {
+        "mirror": true,
+        "mirrorOf": "DL",
+        "source": "DL",
+        "vector": [
+          0.7071067812,
+          0.7071067812
+        ]
+      },
+      "L": {
+        "attackAnchor": [
+          365,
+          498
+        ],
+        "attackDisplayScale": 0.924,
+        "hitOriginOffset": [
+          0,
+          -72
+        ],
+        "mirror": false,
+        "moveAnchor": [
+          155,
+          426
+        ],
+        "slashFrames": {
+          "3": {
+            "alpha": 0.72,
+            "localFlipX": true,
+            "offset": [
+              -94,
+              -139
+            ],
+            "pivot": [
+              144,
+              45
+            ],
+            "rotation": 0
+          },
+          "4": {
+            "alpha": 0.92,
+            "localFlipX": true,
+            "offset": [
+              -119,
+              -79
+            ],
+            "pivot": [
+              110.5,
+              144.5
+            ],
+            "rotation": 0
+          },
+          "5": {
+            "alpha": 0.18,
+            "localFlipX": true,
+            "offset": [
+              -127,
+              -79
+            ],
+            "pivot": [
+              74,
+              121.5
+            ],
+            "rotation": 0
+          }
+        },
+        "source": "L",
+        "vector": [
+          -1,
+          0
+        ]
+      },
+      "R": {
+        "mirror": true,
+        "mirrorOf": "L",
+        "source": "L",
+        "vector": [
+          1,
+          0
+        ]
+      },
+      "U": {
+        "attackAnchor": [
+          295,
+          503
+        ],
+        "attackDisplayScale": 0.977,
+        "hitOriginOffset": [
+          8,
+          -20
+        ],
+        "mirror": false,
+        "moveAnchor": [
+          190,
+          427
+        ],
+        "slashFrames": {
+          "3": {
+            "alpha": 0.7,
+            "localFlipX": true,
+            "offset": [
+              -4,
+              -145
+            ],
+            "pivot": [
+              144,
+              45
+            ],
+            "rotation": 1.5707963268
+          },
+          "4": {
+            "alpha": 0.84,
+            "localFlipX": true,
+            "offset": [
+              0,
+              -158
+            ],
+            "pivot": [
+              110.5,
+              144.5
+            ],
+            "rotation": 1.5707963268
+          },
+          "5": {
+            "alpha": 0.15,
+            "localFlipX": true,
+            "offset": [
+              4,
+              -146
+            ],
+            "pivot": [
+              74,
+              121.5
+            ],
+            "rotation": 1.5707963268
+          }
+        },
+        "source": "U",
+        "vector": [
+          0,
+          -1
+        ]
+      },
+      "UL": {
+        "attackAnchor": [
+          335,
+          503
+        ],
+        "attackDisplayScale": 0.74,
+        "hitOriginOffset": [
+          6,
+          -62
+        ],
+        "mirror": false,
+        "moveAnchor": [
+          165,
+          426
+        ],
+        "slashFrames": {
+          "3": {
+            "alpha": 0.68,
+            "localFlipX": true,
+            "offset": [
+              -106,
+              -135
+            ],
+            "pivot": [
+              144,
+              45
+            ],
+            "rotation": 0.7853981634
+          },
+          "4": {
+            "alpha": 0.84,
+            "localFlipX": true,
+            "offset": [
+              -116,
+              -139
+            ],
+            "pivot": [
+              110.5,
+              144.5
+            ],
+            "rotation": 0.7853981634
+          },
+          "5": {
+            "alpha": 0.16,
+            "localFlipX": true,
+            "offset": [
+              -108,
+              -125
+            ],
+            "pivot": [
+              74,
+              121.5
+            ],
+            "rotation": 0.7853981634
+          }
+        },
+        "source": "UL",
+        "vector": [
+          -0.7071067812,
+          -0.7071067812
+        ]
+      },
+      "UR": {
+        "mirror": true,
+        "mirrorOf": "UL",
+        "source": "UL",
+        "vector": [
+          0.7071067812,
+          -0.7071067812
+        ]
+      }
+    },
+    "displaySize": {
+      "height": 184,
+      "width": 160
+    },
+    "visualBounds": {
+      "top": 197
+    }
+  },
+  "projectiles": {
+    "crystal_spear": {
+      "displaySize": [
+        200,
+        40
+      ],
+      "path": "assets/Projectiles/crystal_spear/crystal_spear.png",
+      "required": true
+    }
+  },
+  "sfx": {
+    "boss_1_casting": {
+      "path": null,
+      "required": true
+    },
+    "boss_1_ground_pound": {
+      "path": null,
+      "required": true
+    },
+    "boss_1_melee": {
+      "path": null,
+      "required": true
+    },
+    "boss_1_run": {
+      "path": null,
+      "required": true
+    },
+    "boss_1_throw": {
+      "path": null,
+      "required": false
+    }
+  },
+  "version": 2,
+  "vfx": {
+    "boss_1_melee_slash": {
+      "frames": [
+        {
+          "index": 3,
+          "path": "assets/effects/boss_1_melee_slash/boss_1_melee_slash_R_03.png"
+        },
+        {
+          "index": 4,
+          "path": "assets/effects/boss_1_melee_slash/boss_1_melee_slash_R_04.png"
+        }
+      ],
+      "kind": "synced_sprite_frames",
+      "path": "assets/effects/boss_1_melee_slash/boss_1_melee_slash_R_{FRAME}.png",
+      "required": true
+    },
+    "boss_1_phase_camera_shake": {
+      "kind": "camera_shake",
+      "path": null,
+      "required": false
+    },
+    "boss_1_phase_gold_tint": {
+      "kind": "procedural_tint",
+      "path": null,
+      "required": false
+    },
+    "crystal_glow": {
+      "kind": "procedural_glow",
+      "path": null,
+      "required": false
+    },
+    "crystal_pulse_warning": {
+      "kind": "procedural_circle",
+      "path": null,
+      "required": false
+    },
+    "crystal_shard": {
+      "frames": [
+        {
+          "index": 1,
+          "path": "assets/effects/crystal_shard/crystal_shard_01.png"
+        },
+        {
+          "index": 2,
+          "path": "assets/effects/crystal_shard/crystal_shard_02.png"
+        }
+      ],
+      "kind": "independent_animation",
+      "path": "assets/effects/crystal_shard/crystal_shard_{FRAME}.png",
+      "required": true
+    },
+    "ground_crack_ring": {
+      "kind": "procedural_circle",
+      "path": null,
+      "required": false
+    },
+    "ground_pound_camera_shake": {
+      "kind": "camera_shake",
+      "path": null,
+      "required": false
+    },
+    "rush_gold_overlay": {
+      "kind": "procedural_tint",
+      "path": null,
+      "required": false
+    }
+  }
+}

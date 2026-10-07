@@ -1,0 +1,6 @@
+﻿sfx_id,path,volume,loop,max_instances,stop_policy,required,notes
+boss_1_melee,to be determined,to be determined,FALSE,to be determined,play_to_end,TRUE,Current description: BOSS melee sound.
+boss_1_ground_pound,to be determined,to be determined,FALSE,to be determined,play_to_end,TRUE,Current description: BOSS ground-pound sound.
+boss_1_throw,to be determined,to be determined,FALSE,to be determined,play_to_end,to be determined,to be determined
+boss_1_casting,to be determined,to be determined,TRUE,1,stop_on_skill_end,TRUE,Current description: looping casting sound.
+boss_1_run,to be determined,to be determined,TRUE,1,stop_on_skill_end,TRUE,Current description: looping running sound.

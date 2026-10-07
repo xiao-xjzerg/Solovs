@@ -1,0 +1,2 @@
+﻿shape,origin,origin_policy,origin_forward_offset,facing_policy,angle_deg,radius,origin_offset_x,origin_offset_y,target_reference
+arc,self,toward_target_on_cast,160,lock_on_cast,120,240,0,-160,hurtbox_center

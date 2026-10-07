@@ -1,0 +1,10 @@
+﻿vfx_id,kind,renderer,frame_source,image_path,duration_ms,loop,blend_mode,scale,color,alpha,line_width,radius,required,notes
+ground_crack_ring,procedural_circle,canvas,skill_event,,,TRUE,source-over,1,red,0.5,,800,FALSE,Visible during the Skill_events animation frame range.
+crystal_glow,procedural_glow,canvas,skill_event,,,TRUE,screen,1,golden,0.5,,,FALSE,Lifetime is controlled by Skill_events.stop_trigger.
+boss_1_melee_slash,synced_sprite_frames,canvas,skill_event_anim_frame,assets\effects\boss_1_melee_slash\boss_1_melee_slash_R_{FRAME}.png,,FALSE,screen,1,,1,,,TRUE,Use the boss_1_melee frame number from Skill_events; {FRAME} resolves to 03 or 04.
+ground_pound_camera_shake,camera_shake,camera,skill_event,,500,FALSE,not_applicable,1,,,,,FALSE,Shake duration and power require approval.
+crystal_pulse_warning,procedural_circle,canvas,event_duration,,1000,FALSE,source-over,1,red,0.5,,200,FALSE,Independent 1000 ms warning for each wave.
+crystal_shard,independent_animation,canvas,own_animation,assets\effects\crystal_shard\crystal_shard_{FRAME}.png,500,FALSE,source-over,1,,1,,200,TRUE,Uses its own animation because it continues independently after the wave event.
+rush_gold_overlay,procedural_tint,canvas,skill_event,,,TRUE,screen,1,golden,0.5,,,FALSE,Lifetime is controlled by Skill_events.stop_trigger.
+boss_1_phase_gold_tint,procedural_tint,canvas,animation_event,,,TRUE,screen,1,golden,0.5,,,FALSE,"Use the current sprite alpha as a source-atop mask, so only nontransparent character pixels glow. Frame range controls lifetime."
+boss_1_phase_camera_shake,camera_shake,camera,animation_event,,1450,FALSE,not_applicable,1,,,,,FALSE,Starts on phase-transition frame 02 and lasts through frame 05. Shake amplitude remains a runtime tuning parameter.

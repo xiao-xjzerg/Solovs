@@ -1,0 +1,2 @@
+﻿boss_id,name_cn,max_hp,move_speed,aggro_range,display_width,display_height,sprite_anchor_x,sprite_anchor_y,body_shape,body_width,body_height,body_offset_x,body_offset_y,hurtbox_shape,hurtbox_width,hurtbox_height,hurtbox_offset_x,hurtbox_offset_y,initial_phase,idle_anim_id,move_anim_id,hurt_anim_id,death_anim_id,phase_transition_anim_id,notes
+boss_1,Crystallor,500,150,1500,320,320,160,320,ellipse,200,50,0,-25,ellipse,300,300,0,-160,1,boss_1_idle,boss_1_move,boss_1_gethurt,boss_1_death,boss_1_phase_2,Display size 320 comes from the current design discussion.

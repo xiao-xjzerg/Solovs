@@ -1,0 +1,2 @@
+﻿duration_ms,waves,wave_interval_ms,AOE_shape,release_location,radius
+3000,3,1000,circle,target_location_each_wave,200
